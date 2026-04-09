@@ -1,0 +1,16 @@
+cd /d C:\Users\User\IdeaProjects\BloodUnit
+
+java --enable-native-access=ALL-UNNAMED -jar BloodUnit.jar
+
+java --enable-native-access=ALL-UNNAMED -jar out\artifacts\BloodUnit_jar\BloodUnit.jar
+
+had to create BloodUnit/lib/sqlite-jdbc-3.51.3.0.jar in with file
+Extract the submission folder.
+Make sure these files/folders are present:
+out\artifacts\BloodUnit_jar\BloodUnit.jar
+config\db-config.properties
+data\bloodbank.db
+sqlite-jdbc-3.51.3.0.jar
+Open config\db-config.properties and confirm:
+db.path=data/bloodbank.db
+
